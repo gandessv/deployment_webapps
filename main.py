@@ -4,7 +4,7 @@ st.write("Aplikasi Perhitungan Molaritas")
 
 bobot = st.number_input('Masukan nilai bobot')
 volume = st.number_input('Masukan nilai volume')
-mr = st.button('Hitung nilai Mr')
+mr = st.number_input('Masukan nilai Mr')
 
 tombol = st.button('Hitung nilai molaritas')
 
